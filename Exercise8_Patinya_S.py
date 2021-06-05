@@ -35,7 +35,7 @@ if usernameInput == "admin" and passwordInput == "123456" :
         print ("you choose the product : 1.Cola 30 (THB)")
         amount = int(input("please enter your amount : "))
         print ("you choose the product : 1.Cola 30 (THB) : ",amount,"piece")
-        price = amount * 30
+        price = (amount * 30)
         print ("total price : ",price,"THB")
 
 
@@ -43,7 +43,7 @@ if usernameInput == "admin" and passwordInput == "123456" :
         print ("you choose the product : 2.Toffy 15 (THB)")
         amount = int(input("please enter your amount : "))
         print ("you choose the product : 2.Toffy 15 (THB) : ",amount,"piece")
-        price = amount * 15
+        price = (amount * 15)
         print ("total price : ",price,"THB")
 
 
@@ -52,7 +52,7 @@ if usernameInput == "admin" and passwordInput == "123456" :
         print ("you choose the product : 3.Popcorn 25 (THB)")
         amount = int(input("please enter your amount : "))
         print ("you choose the product : 3.Popcorn 25 (THB) : ",amount,"piece")
-        price = amount * 25
+        price = (amount * 25)
         print ("total price : ",price,"THB")
 
 
@@ -61,7 +61,7 @@ if usernameInput == "admin" and passwordInput == "123456" :
         print ("you choose the product :  4.Smoking 50 (THB)")
         amount = int(input("please enter your amount : "))
         print ("you choose the product :  4.Smoking 50 (THB) : ",amount,"piece")
-        price = amount * 50
+        price = (amount * 50)
         print ("total price : ",price,"THB")
 
 
