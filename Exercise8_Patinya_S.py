@@ -16,10 +16,8 @@ passwordInput = input("password : ")
 
 if usernameInput == "admin" and passwordInput == "123456" :
     print ("Welcome : ",usernameInput)
-     #print ("Welcome to Stock Order\n1.Cola    30 (THB)\n2.Toffy   15 (THB)\n3.Popcorn 25 (THB)\n4.Smoking 50 (THB)")
 
     print ("Welcome to Stock Oroder Please Selected 1 item")
-
     product1 = ("1.Cola    30 (THB)")
     product2 = ("2.Toffy   15 (THB)")
     product3 = ("3.Popcorn 25 (THB)")
